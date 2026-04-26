@@ -27,7 +27,7 @@ Workflows under `.github/workflows/` are called by other repos in the org. House
 
 Currently published:
 
-- [.github/workflows/sonar.yml](.github/workflows/sonar.yml) — SonarQube/SonarCloud scan. Inputs: `sonar-host-url` (string, required). Secrets: `SONAR_TOKEN` (required). Does `actions/checkout@v4` with `fetch-depth: 0` (full history needed for new-code detection and blame), then `SonarSource/sonarqube-scan-action@v5`.
+- [.github/workflows/sonar.yml](.github/workflows/sonar.yml) — SonarQube/SonarCloud scan. Inputs: `sonar-host-url` (string, required). Secrets: `SONAR_TOKEN` (required). Does `actions/checkout@v4` with `fetch-depth: 0` (full history needed for new-code detection and blame), then `SonarSource/sonarqube-scan-action@v6`.
 
 Operational notes (not enforced by code, easy to forget):
 
